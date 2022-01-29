@@ -1,0 +1,94 @@
+
+.head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(to right ,hsl(13, 100%, 72%),hsl(353, 100%, 62%))!important;
+    overflow: hidden;
+    border-bottom-left-radius: 91px;
+}
+.blocTop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90% !important;
+    z-index: 1;
+    
+}
+h6::after{
+    content:url('images/icon-arrow-dark.svg')!important;
+}
+.head-bg {
+    height: 2008px;
+    position: absolute;
+    top: -725px;
+    right: -756px;
+    transform: rotate(8deg);
+    z-index: 0;
+}
+a{
+    color: white!important;
+    text-decoration: none;
+}
+.container>img{
+    height:30px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+li ul{
+    display: none!important;
+}
+ul#nav>li:hover>ul{
+    display: block!important;
+}
+.head>div:last-child{
+    text-align: center;
+    margin-top: 20%;
+    height: 400px;
+    color: white;
+    z-index: 1;
+}
+.head>div:last-child>h6{
+    margin: 20px 0px;
+}
+/* partie centrale */
+.mid>img{
+    height: 500px;
+    margin-right: -60px;
+}
+.mid2{
+    margin-top: 140px;
+    height: 350px!important;
+    background-color: hsl(237, 23%, 32%)!important;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+
+}
+.mid2>img{
+    height: 550px;
+    margin-left: 25px;
+    margin-top: -80px;
+}
+.mid3>div{
+    padding-left: 50px;
+    width: 50%;
+    margin-right: 0px!important;
+}
+.mid3>img {
+    height: 493px;
+    margin-left: -240px;
+}
+.footer{
+    height: 15%;
+    border-top-right-radius: 90px;
+}
+.copy{
+    text-align: center;
+}
