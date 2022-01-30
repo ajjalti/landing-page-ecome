@@ -8,6 +8,9 @@
     overflow: hidden;
     border-bottom-left-radius: 91px;
 }
+.btn{
+    height:max-content!important;
+}
 .blocTop{
     display: flex;
     justify-content: space-between;
@@ -16,8 +19,9 @@
     z-index: 1;
     
 }
-h6::after{
-    content:url('images/icon-arrow-dark.svg')!important;
+h6:hover>img{
+    transform: rotate(180deg);
+    transition: transform 0.4s;
 }
 .head-bg {
     height: 2008px;
@@ -45,8 +49,17 @@ a{
 li ul{
     display: none!important;
 }
-ul#nav>li:hover>ul{
+ul.nav>li:hover>ul{
     display: block!important;
+}
+ul.nav>li{
+    position: relative;
+}
+ul.nav>li>ul{
+    position: absolute;
+    width: 100px;
+    background-color: rgba(250, 250, 250, 0.1);
+    color:hsl(353, 100%, 62%)!important;
 }
 .head>div:last-child{
     text-align: center;
